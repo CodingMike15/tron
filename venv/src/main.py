@@ -227,58 +227,34 @@ while run:
 
         if yellow_stele_x[0] < 0 or yellow_stele_x[0] > size[0] or yellow_stele_y[0] < 0 or yellow_stele_y[0] > size[1]:
             play = False
-<<<<<<< HEAD
             red_wins = True
-=======
-            run = False
->>>>>>> 03a848fb33f760d8adf062c831ac91b695b33a88
             print('amarillo pierde')
 
         if red_stele_x[0] < 0 or red_stele_x[0] > size[0] or red_stele_y[0] < 0 or red_stele_y[0] > size[1]:
             play = False
-<<<<<<< HEAD
             yellow_wins = True
-=======
-            run = False
->>>>>>> 03a848fb33f760d8adf062c831ac91b695b33a88
             print('rojo pierde')
 
         for i in range(1, len(yellow_stele_x)):
             if yellow_stele_x[0] == yellow_stele_x[i] and yellow_stele_y[0] == yellow_stele_y[i]:
                 play = False
-<<<<<<< HEAD
                 red_wins = True
-=======
-                run = False
->>>>>>> 03a848fb33f760d8adf062c831ac91b695b33a88
                 print('amarillo pierde')
             
             if red_stele_x[0] == yellow_stele_x[i] and red_stele_y[0] == yellow_stele_y[i]:
                 play = False
-<<<<<<< HEAD
                 yellow_wins = True
-=======
-                run = False
->>>>>>> 03a848fb33f760d8adf062c831ac91b695b33a88
                 print('red pierde')
 
         for i in range(1, len(red_stele_x)):
             if red_stele_x[0] == red_stele_x[i] and red_stele_y[0] == red_stele_y[i]:
                 play = False
-<<<<<<< HEAD
                 yellow_wins = True
-=======
-                run = False
->>>>>>> 03a848fb33f760d8adf062c831ac91b695b33a88
                 print('red pierde')
 
             if yellow_stele_x[0] == red_stele_x[i] and yellow_stele_y[0] == red_stele_y[i]:
                 play = False
-<<<<<<< HEAD
                 red_wins = True
-=======
-                run = False
->>>>>>> 03a848fb33f760d8adf062c831ac91b695b33a88
                 print('amarillo pierde')
 
         update_game()
